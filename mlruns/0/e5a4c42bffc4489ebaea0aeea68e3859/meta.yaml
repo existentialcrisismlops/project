@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/e5a4c42bffc4489ebaea0aeea68e3859/artifacts
+end_time: 1701961577670
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5a4c42bffc4489ebaea0aeea68e3859
+run_name: agreeable-slug-244
+run_uuid: e5a4c42bffc4489ebaea0aeea68e3859
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701961577656
+status: 4
+tags: []
+user_id: eshalaamir
