@@ -6,6 +6,8 @@ import numpy as np
 # Set seed for reproducibility
 np.random.seed(42)
 
+# DVC commands
+DVC_CMD = "dvc run -d generate_data.py -o dummy_sensor_data.csv python generate_data.py"
 
 # Function to generate dummy data and append to existing CSV
 def generate_and_append_data(file_path, num_machines=5, num_sensors=3, freq='H'):
@@ -27,7 +29,8 @@ def generate_and_append_data(file_path, num_machines=5, num_sensors=3, freq='H')
 
     updated_data.to_csv(file_path, index=False)
 
-
+    # DVC commit
+    subprocess.run(DVC_CMD, shell=True)
 
 # Function to generate random datetime within a given range
 def random_dates(start_date, end_date, n=10):
@@ -54,17 +57,20 @@ def generate_dummy_data(start_date, end_date, num_machines=5, num_sensors=3, fre
 
     return pd.DataFrame(data)
 
-
 if __name__ == "__main__":
     data_file_path = 'dummy_sensor_data.csv'
     # Define date range for dummy data
-start_date = datetime(2023, 1, 1)
-end_date = datetime(2023, 1, 10)
+    start_date = datetime(2023, 1, 1)
+    end_date = datetime(2023, 1, 10)
 
-# Generate dummy data
-dummy_data = generate_dummy_data(start_date, end_date, num_machines=5, num_sensors=3)
+    # Generate dummy data
+    dummy_data = generate_dummy_data(start_date, end_date, num_machines=5, num_sensors=3)
 
-# Save dummy data to CSV file
-dummy_data.to_csv('dummy_sensor_data.csv', index=False)
+    # Save dummy data to CSV file
+    dummy_data.to_csv(data_file_path, index=False)
 
-generate_and_append_data(data_file_path)
+    # DVC commit for initial data
+    subprocess.run(DVC_CMD, shell=True)
+
+    # Generate and append new data periodically
+    generate_and_append_data(data_file_path)
