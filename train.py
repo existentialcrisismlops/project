@@ -2,8 +2,8 @@
 import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import RandomizedSearchCV
 from sklearn.metrics import mean_squared_error
-import os
 import sys
 
 def train_model(X_train, y_train, X_val, y_val, n_estimators, max_depth, random_state):
@@ -32,6 +32,7 @@ def train_model(X_train, y_train, X_val, y_val, n_estimators, max_depth, random_
 
         return model
 
+
 if __name__ == "__main__":
     # Load preprocessed data
     from process_data import preprocess_data
@@ -42,5 +43,16 @@ if __name__ == "__main__":
     max_depth = int(sys.argv[2]) if len(sys.argv) > 2 else 10
     random_state = int(sys.argv[3]) if len(sys.argv) > 3 else 42
 
-    # Train the model
+    # Train the model with hyperparameter tuning (RandomizedSearchCV example)
+    param_distributions = {
+        'n_estimators': [50, 100, 150],
+        'max_depth': [5, 10, 15]
+    }
+    model = RandomizedSearchCV(RandomForestRegressor(random_state=random_state),
+                               param_distributions=param_distributions,
+                               n_iter=3,  
+                               scoring='neg_mean_squared_error',
+                               cv=3,  #
+                               verbose=1,
+                               n_jobs=-1)
     trained_model = train_model(X_train, y_train, X_val, y_val, n_estimators, max_depth, random_state)

@@ -1,8 +1,9 @@
 artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/23cd88e54f6345e888c8ede7f4bee3de/artifacts
+deleted_time: 1702111862578
 end_time: 1701961607119
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 23cd88e54f6345e888c8ede7f4bee3de
 run_name: nosy-kit-21
 run_uuid: 23cd88e54f6345e888c8ede7f4bee3de

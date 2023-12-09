@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/dacef699f46643ac90b57edb35207c1a/artifacts
+end_time: 1702112117605
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dacef699f46643ac90b57edb35207c1a
+run_name: vaunted-stork-570
+run_uuid: dacef699f46643ac90b57edb35207c1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702112111718
+status: 4
+tags: []
+user_id: eshalaamir

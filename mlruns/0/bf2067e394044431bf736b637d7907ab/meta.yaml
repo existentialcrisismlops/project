@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/bf2067e394044431bf736b637d7907ab/artifacts
+end_time: 1702113432646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf2067e394044431bf736b637d7907ab
+run_name: rare-bear-192
+run_uuid: bf2067e394044431bf736b637d7907ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702113429832
+status: 3
+tags: []
+user_id: eshalaamir
