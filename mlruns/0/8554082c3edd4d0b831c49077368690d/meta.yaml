@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/8554082c3edd4d0b831c49077368690d/artifacts
+end_time: 1702209657111
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8554082c3edd4d0b831c49077368690d
+run_name: shivering-carp-573
+run_uuid: 8554082c3edd4d0b831c49077368690d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702209653894
+status: 3
+tags: []
+user_id: eshalaamir

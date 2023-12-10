@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1702210831920
+current_stage: None
+description: ''
+last_updated_timestamp: 1702210831920
+name: modal1
+run_id: 8554082c3edd4d0b831c49077368690d
+run_link: ''
+source: file:///Users/fatima/Desktop/project/mlruns/0/8554082c3edd4d0b831c49077368690d/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/fatima/Desktop/project/mlruns/0/8554082c3edd4d0b831c49077368690d/artifacts/model
+user_id: null
+version: 1

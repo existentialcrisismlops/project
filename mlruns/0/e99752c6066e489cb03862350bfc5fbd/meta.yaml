@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/e99752c6066e489cb03862350bfc5fbd/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e99752c6066e489cb03862350bfc5fbd
+run_name: respected-chimp-75
+run_uuid: e99752c6066e489cb03862350bfc5fbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702208688431
+status: 1
+tags: []
+user_id: eshalaamir

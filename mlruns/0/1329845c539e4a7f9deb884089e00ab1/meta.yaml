@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/1329845c539e4a7f9deb884089e00ab1/artifacts
+deleted_time: 1702210199324
+end_time: 1702209614648
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1329845c539e4a7f9deb884089e00ab1
+run_name: delicate-fly-462
+run_uuid: 1329845c539e4a7f9deb884089e00ab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702209609533
+status: 3
+tags: []
+user_id: eshalaamir

@@ -1,4 +1,3 @@
-# train.py
 import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestRegressor
@@ -8,6 +7,9 @@ import sys
 
 def train_model(X_train, y_train, X_val, y_val, n_estimators, max_depth, random_state):
     with mlflow.start_run():
+
+        # Enable automatic logging for scikit-learn
+        mlflow.sklearn.autolog()
 
         # Create and train the model
         model = RandomForestRegressor(n_estimators=n_estimators, max_depth=max_depth, random_state=random_state)
@@ -19,19 +21,11 @@ def train_model(X_train, y_train, X_val, y_val, n_estimators, max_depth, random_
         # Calculate the mean squared error
         mse = mean_squared_error(y_val, y_val_pred)
 
-        # Log model parameters and metrics to MLflow
-        mlflow.log_params({
-            "n_estimators": n_estimators,
-            "max_depth": max_depth,
-            "random_state": random_state
-        })
-        mlflow.log_metric("mse", mse)
+        # Note: You don't need explicit calls to mlflow.log_params and mlflow.sklearn.log_model
 
-        # Save the model
-        mlflow.sklearn.log_model(model, "model")
+        # No need to save the model explicitly; autolog() handles it automatically
 
         return model
-
 
 if __name__ == "__main__":
     # Load preprocessed data
@@ -52,7 +46,7 @@ if __name__ == "__main__":
                                param_distributions=param_distributions,
                                n_iter=3,  
                                scoring='neg_mean_squared_error',
-                               cv=3,  #
+                               cv=3,
                                verbose=1,
                                n_jobs=-1)
     trained_model = train_model(X_train, y_train, X_val, y_val, n_estimators, max_depth, random_state)
