@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/a56b0849df8c493b9304dc8bb5a210c0/artifacts
+deleted_time: 1702209674655
+end_time: 1702209616926
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a56b0849df8c493b9304dc8bb5a210c0
+run_name: gentle-carp-490
+run_uuid: a56b0849df8c493b9304dc8bb5a210c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702209609533
+status: 3
+tags: []
+user_id: eshalaamir

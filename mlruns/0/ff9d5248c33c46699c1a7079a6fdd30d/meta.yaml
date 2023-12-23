@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/ff9d5248c33c46699c1a7079a6fdd30d/artifacts
+deleted_time: 1702111862576
+end_time: 1702111741347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ff9d5248c33c46699c1a7079a6fdd30d
+run_name: skillful-calf-934
+run_uuid: ff9d5248c33c46699c1a7079a6fdd30d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702111733844
+status: 4
+tags: []
+user_id: eshalaamir

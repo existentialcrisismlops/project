@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/cfea473104a6418b904ca752894fe3ff/artifacts
+deleted_time: 1702210199319
+end_time: 1702209424340
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: cfea473104a6418b904ca752894fe3ff
+run_name: bold-bird-415
+run_uuid: cfea473104a6418b904ca752894fe3ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702209418287
+status: 3
+tags: []
+user_id: eshalaamir

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/aeec488bbdc3415ba637a13f2e74ad27/artifacts
+deleted_time: 1702209674655
+end_time: 1702209424778
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: aeec488bbdc3415ba637a13f2e74ad27
+run_name: capricious-conch-672
+run_uuid: aeec488bbdc3415ba637a13f2e74ad27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702209418287
+status: 4
+tags: []
+user_id: eshalaamir

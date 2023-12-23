@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/12460fcbd2a144588296ed04e2db1ce6/artifacts
+end_time: 1702112021265
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12460fcbd2a144588296ed04e2db1ce6
+run_name: amazing-deer-834
+run_uuid: 12460fcbd2a144588296ed04e2db1ce6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702112015310
+status: 4
+tags: []
+user_id: eshalaamir

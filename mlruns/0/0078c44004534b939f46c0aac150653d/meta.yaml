@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/0078c44004534b939f46c0aac150653d/artifacts
+deleted_time: 1702209674656
+end_time: 1702209507493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0078c44004534b939f46c0aac150653d
+run_name: magnificent-bass-198
+run_uuid: 0078c44004534b939f46c0aac150653d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702209507362
+status: 4
+tags: []
+user_id: eshalaamir

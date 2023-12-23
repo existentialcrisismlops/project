@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/d57c2dddd68645ccad31f26b8c64493f/artifacts
+end_time: 1702113404278
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d57c2dddd68645ccad31f26b8c64493f
+run_name: able-bug-840
+run_uuid: d57c2dddd68645ccad31f26b8c64493f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702113402976
+status: 4
+tags: []
+user_id: eshalaamir
