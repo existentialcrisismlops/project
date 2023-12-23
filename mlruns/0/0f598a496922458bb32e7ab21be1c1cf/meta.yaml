@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/0f598a496922458bb32e7ab21be1c1cf/artifacts
+deleted_time: 1702210704668
+end_time: 1702210664885
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0f598a496922458bb32e7ab21be1c1cf
+run_name: upset-carp-253
+run_uuid: 0f598a496922458bb32e7ab21be1c1cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702210663852
+status: 4
+tags: []
+user_id: eshalaamir

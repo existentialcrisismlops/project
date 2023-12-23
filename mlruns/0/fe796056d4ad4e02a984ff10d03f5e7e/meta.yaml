@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/fe796056d4ad4e02a984ff10d03f5e7e/artifacts
+end_time: 1702112161385
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe796056d4ad4e02a984ff10d03f5e7e
+run_name: clean-mare-658
+run_uuid: fe796056d4ad4e02a984ff10d03f5e7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702112158433
+status: 3
+tags: []
+user_id: eshalaamir
