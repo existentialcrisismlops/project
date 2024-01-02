@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/ed4c8abcf0f8450eae46db0d4b7a5a6a/artifacts
+end_time: 1704207555236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed4c8abcf0f8450eae46db0d4b7a5a6a
+run_name: polite-rat-767
+run_uuid: ed4c8abcf0f8450eae46db0d4b7a5a6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704207554668
+status: 4
+tags: []
+user_id: User
