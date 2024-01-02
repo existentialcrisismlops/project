@@ -1,1 +1,7 @@
 /dummy_sensor_data.csv
+# Set default behavior to LF, in case a file is unspecified
+* text eol=lf
+
+# Explicitly declare files that need CRLF (Windows) line endings
+*.bat text eol=crlf
+/venv/Lib

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Main/Semesters/7TH/mlops_work/project/project/mlruns/0/5e4f59df99d742218fc5c9ae617bd397/artifacts
+end_time: 1704213120323
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e4f59df99d742218fc5c9ae617bd397
+run_name: wistful-wren-342
+run_uuid: 5e4f59df99d742218fc5c9ae617bd397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704213108152
+status: 3
+tags: []
+user_id: HP
