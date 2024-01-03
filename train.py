@@ -50,3 +50,7 @@ if __name__ == "__main__":
                                verbose=1,
                                n_jobs=-1)
     trained_model = train_model(X_train, y_train, X_val, y_val, n_estimators, max_depth, random_state)
+    # Register the best model in MLflow Model Registry
+    best_run = mlflow.search_runs(order_by=["metrics.neg_mean_squared_error"]).iloc[0]
+    best_run_id = best_run.run_id
+    mlflow.register_model(f"runs:/{best_run_id}/best_model", "Best Model")
