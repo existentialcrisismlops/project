@@ -1,5 +1,5 @@
 # project
-## Project Execution (GitHub Action)
+### Project Execution (GitHub Action)
 See project-execution.yml for building and executing the model.
 ## DVC Pipeline (dvc-pipeline.yml)
 Defines a pipeline to create and push a new dataset version.
