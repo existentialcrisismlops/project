@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Main/Semesters/7TH/mlops_work/project/project/mlruns/0/dee7af8b96784109888a8e2f2e021eeb/artifacts
+end_time: 1704268591491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dee7af8b96784109888a8e2f2e021eeb
+run_name: charming-shad-475
+run_uuid: dee7af8b96784109888a8e2f2e021eeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704268462685
+status: 3
+tags: []
+user_id: HP
