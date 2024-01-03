@@ -1,0 +1,39 @@
+stages:
+  generate_data:
+    cmd: python random_data.py
+    outs:
+    - dummy_sensor_data.csv
+
+  upload_file:
+    cmd: dvc add dummy_sensor_data.csv && dvc push -r myremote
+    deps:
+      - dummy_sensor_data.csv
+    outs: []
+
+  process_data:
+    cmd: python process_data.py
+    deps:
+    - dummy_sensor_data.csv
+    - process_data.py
+    outs:
+    - data_processed.csv
+
+  train_model:
+    cmd: python train.py
+    deps:
+    - data_processed.csv
+    - train.py
+    outs:
+    - model.pkl
+    - training_plots.png
+    metrics:
+    - metrics.json:
+        cache: false
+
+  monitor_model:
+    cmd: python monitor.py
+    deps:
+    - monitor.py
+    - data_processed.csv
+    outs:
+    - metrics.csv
