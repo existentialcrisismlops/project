@@ -9,5 +9,4 @@ entry_points:
       random_state: {type: int, default: 42}
     command: "python3 train.py {n_estimators} {max_depth} {random_state}"
 
-    # Explicitly set the Conda environment
-    conda_env: python_env.yaml
+
