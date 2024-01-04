@@ -54,4 +54,4 @@ if __name__ == "_main_":
      # Register the best model in MLflow Model Registry
     best_run = mlflow.search_runs(order_by=["metrics.neg_mean_squared_error"]).iloc[0]
     best_run_id = best_run.run_id
-    mlflow.register_model(f"runs:/{best_run_id}/best_model", "Best Model")
+    mlflow.register_model(f"runs:/{best_run_id}/modal1", "Best Model")
