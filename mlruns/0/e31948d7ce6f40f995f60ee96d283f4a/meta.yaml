@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/e31948d7ce6f40f995f60ee96d283f4a/artifacts
+end_time: 1704304920193
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e31948d7ce6f40f995f60ee96d283f4a
+run_name: suave-koi-696
+run_uuid: e31948d7ce6f40f995f60ee96d283f4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704304912570
+status: 3
+tags: []
+user_id: eshalaamir

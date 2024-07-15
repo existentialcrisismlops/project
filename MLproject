@@ -9,4 +9,3 @@ entry_points:
       random_state: {type: int, default: 42}
     command: "python3 train.py {n_estimators} {max_depth} {random_state}"
 
-

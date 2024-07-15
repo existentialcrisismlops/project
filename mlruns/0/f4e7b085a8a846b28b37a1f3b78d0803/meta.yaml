@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/f4e7b085a8a846b28b37a1f3b78d0803/artifacts
+end_time: 1704305705891
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4e7b085a8a846b28b37a1f3b78d0803
+run_name: adventurous-mink-322
+run_uuid: f4e7b085a8a846b28b37a1f3b78d0803
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704305704270
+status: 3
+tags: []
+user_id: eshalaamir

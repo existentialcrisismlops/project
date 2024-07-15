@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/bf21bbc6997447ff9af3368848d11c89/artifacts
+end_time: 1704345387433
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf21bbc6997447ff9af3368848d11c89
+run_name: tasteful-lark-996
+run_uuid: bf21bbc6997447ff9af3368848d11c89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704345385839
+status: 3
+tags: []
+user_id: eshalaamir

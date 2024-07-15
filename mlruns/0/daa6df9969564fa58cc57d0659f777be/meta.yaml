@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/daa6df9969564fa58cc57d0659f777be/artifacts
+end_time: 1704306409074
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daa6df9969564fa58cc57d0659f777be
+run_name: aged-mule-985
+run_uuid: daa6df9969564fa58cc57d0659f777be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704306407492
+status: 3
+tags: []
+user_id: eshalaamir

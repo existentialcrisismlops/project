@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatima/Desktop/project/mlruns/0/42a7b49618fb4a0baabfcd5643acac84/artifacts
+end_time: 1704304633055
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42a7b49618fb4a0baabfcd5643acac84
+run_name: beautiful-jay-557
+run_uuid: 42a7b49618fb4a0baabfcd5643acac84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704304630618
+status: 3
+tags: []
+user_id: eshalaamir
